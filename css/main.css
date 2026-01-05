@@ -1,11 +1,11 @@
-
- *{
+* {
     margin: 0;
     padding: 0;
     width: auto;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+
 .header {
     width: 100%;
     background: #03a9f4;
@@ -69,7 +69,7 @@
     color: #fff;
     border: none;
     background-color: #03a9f4;
-    
+
 }
 
 
@@ -99,7 +99,7 @@
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
-   
+
 }
 
 .sign {
@@ -114,19 +114,19 @@
     width: 101px;
 }
 
-@media (min-width: 900px){
-    
-    .nav img{
-        display:flex;
+@media (min-width: 900px) {
+
+    .nav img {
+        display: flex;
     }
- 
+
 }
 
 
 
 #menu__toggle {
     opacity: 0;
-   
+
 
 }
 
@@ -141,7 +141,7 @@
     height: 26px;
     cursor: pointer;
     z-index: 300;
-    
+
 }
 
 
@@ -181,7 +181,7 @@
     background-color: #ECEFF1;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
     z-index: 1;
-    
+
 
 }
 
@@ -193,14 +193,14 @@
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
-   
-   
+
+
 
 }
 
 .menu__item:hover {
     background-color: #CFD8DC;
-    
+
 }
 
 
@@ -212,19 +212,19 @@
 #menu__toggle:checked~.menu__btn>span::before {
     top: 0;
     transform: rotate(0);
-    
+
 }
 
 #menu__toggle:checked~.menu__btn>span::after {
     top: 0;
     transform: rotate(90deg);
-    
+
 }
 
 #menu__toggle:checked~.menu__box {
     visibility: visible;
     right: 0;
-    
+
 }
 
 .h2-1 {
@@ -302,39 +302,39 @@
 
 .tabs-wrapper span {
     color: #03a9f4;
-    
+
 }
 
-.rid-bnp{
+.rid-bnp {
     position: fixed;
     margin-top: -20px;
     max-width: 60%;
 
 }
 
- .red_buttons {
-     position: relative;
-     width: 13em;
-     height: 4em;
-     background: #f75e2e;
-     border: none;
-     top: 50px;
-     color: #fff;
+.red_buttons {
+    position: relative;
+    width: 13em;
+    height: 4em;
+    background: #f75e2e;
+    border: none;
+    top: 50px;
+    color: #fff;
 
 
 
- }
+}
 
 
 
 .container-2 {
     position: relative;
     display: inline-block;
-    width:100%;
+    width: 100%;
     height: auto;
     background: #e6f7fe;
-    
-   
+
+
 }
 
 .container-2 img {
@@ -343,7 +343,7 @@
     height: auto;
 }
 
-.imges-3{
+.imges-3 {
     margin-top: 2vw;
     width: 169.46vw;
 
@@ -352,12 +352,12 @@
 
 
 
-@media (min-width: 1270px){
-.container-2{
-    width: 100%;
-    max-width: 100%;
-    max-height: 100%;
-}
+@media (min-width: 1270px) {
+    .container-2 {
+        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    }
 
 
 }
@@ -384,9 +384,9 @@
     max-width: 32vh;
     animation-name: imges-4;
     animation-duration: 6s;
-    animation-timing-function:ease-in-out;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    top:14vh;
+    top: 14vh;
     z-index: 300;
 }
 
@@ -400,7 +400,7 @@
     max-width: 100%;
     margin-top: -4em;
     z-index: 1;
-    
+
 }
 
 
@@ -427,7 +427,7 @@
     color: #fff;
     font-size: 14px;
     margin-bottom: 8px;
-    
+
 }
 
 select.cel {
@@ -502,9 +502,13 @@ select {
 
 
 @media (max-width: 1270px) {
-.container-2,.span-1, .h1-2, .rid-bnp{
+
+    .container-2,
+    .span-1,
+    .h1-2,
+    .rid-bnp {
         width: 100%;
-        
+
     }
 
     p {
@@ -512,12 +516,12 @@ select {
     }
 }
 
-@media (min-width: 360px){
-    .h1-2{
+@media (min-width: 360px) {
+    .h1-2 {
         font-size: 26px;
     }
 
-        .red_buttons {
+    .red_buttons {
         width: 50%;
         text-align: center;
     }
@@ -525,72 +529,75 @@ select {
 
 
 
-.container-4{
-    position:relative;
-    margin:  0 0 auto;
-    top:8vh;
-   /* left:16vh;*/
+.container-4 {
+    position: relative;
+    margin: 0 0 auto;
+    top: 8vh;
+    /* left:16vh;*/
     margin-left: 19vh;
     float: left;
     height: 69vh;
     width: 86vh;
     background: #e6f7fe;
-    
+
 }
 
-.docher img{
+.docher img {
     position: absolute;
-    top:8vh;
+    top: 8vh;
     left: 20vh;
-    
-}
-@media(min-width: 360px){
-        .container-4{
-            display: inline-block;
-            max-width: 50%;
-            min-height: 50%;
-           
-        
 
-        }
-   .docher img{
-    display: flex;
-    max-width: 50%;
-    height: auto;
-    
-
-   }
-   .h2-31{
-    max-width: 100%;
-   }
 }
 
-.h2-31{
-    
-    position:relative;
-    color:#45a7d3;
-    left:110%;
-    top:2vh;
+@media(min-width: 360px) {
+    .container-4 {
+        display: inline-block;
+        max-width: 50%;
+        min-height: 50%;
+
+
+
+    }
+
+    .docher img {
+        display: flex;
+        max-width: 50%;
+        height: auto;
+
+
+    }
+
+    .h2-31 {
+        max-width: 100%;
+    }
+}
+
+.h2-31 {
+
+    position: relative;
+    color: #45a7d3;
+    left: 110%;
+    top: 2vh;
     width: 100%;
-    font-weight:lighter ;
+    font-weight: lighter;
     font-size: small;
-    
-   
-}
 
-.h2-4{
-  position: relative;
-  top:18vh;
-  font-weight: lighter;
-  left: 8vh;
-  max-width: 90%;
 
 }
 
-.p_1{
+.h2-4 {
+    position: relative;
+    top: 18vh;
+    font-weight: lighter;
+    left: 8vh;
+    max-width: 90%;
+
+}
+
+.p_1 {
     position: relative;
     left: 8vh;
-    top:28vh;
+    top: 28vh;
     width: 90%;
 }
 
@@ -894,7 +901,7 @@ h2 {
     font-size: 42px;
     color: #e2f55d;
     margin-top: -150px;
-    font-weight:bolder;
+    font-weight: bolder;
 
 }
 
@@ -958,19 +965,19 @@ h2 {
     margin-left: 40px;
 }
 
-small.slv{
+small.slv {
     display: block;
     margin-left: 50px;
     opacity: 0.9;
     margin-top: 100px;
 }
 
-.baal{
+.baal {
     display: block;
     position: absolute;
     margin-left: 240px;
     margin-top: -80px;
-    
+
 
 }
 
@@ -1010,10 +1017,11 @@ small.slv{
 }
 
 
-span.arw_left{
+span.arw_left {
     margin-left: -400px;
 }
-span.arw_right{
+
+span.arw_right {
     margin-right: -400px;
 }
 
@@ -1045,11 +1053,12 @@ span.arw_right{
 }
 
 @media (max-width: 768px) {
-   
-      .testimonial-wrapper {
+
+    .testimonial-wrapper {
         flex-direction: column;
         gap: 20px;
     }
+
     .arrow {
         font-size: 30px;
     }
@@ -1093,6 +1102,7 @@ span.arw_right{
     flex-wrap: wrap;
     gap: 20px;
 }
+
 .logotipes img {
     width: 40vh;
 }
@@ -1167,31 +1177,3 @@ span.arw_right{
         text-align: center;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
